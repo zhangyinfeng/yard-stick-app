@@ -1,54 +1,22 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2706
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier-Bold;\f1\fmodern\fcharset0 Courier;}
-{\colortbl;\red255\green255\blue255;\red52\green52\blue52;\red255\green255\blue255;\red0\green0\blue0;
-\red18\green101\blue1;}
-{\*\expandedcolortbl;;\cssrgb\c26667\c26667\c26667;\cssrgb\c100000\c100000\c100000;\cssrgb\c0\c0\c0;
-\cssrgb\c4314\c45882\c0;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\partightenfactor0
-
-\f0\b\fs26 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 \{
-\f1\b0 \
-"\strokec4 name\strokec2 ":\'a0\cf5 \strokec5 "Next PWA demo"\cf2 \strokec2 ,\cb1 \
-\pard\pardeftab720\partightenfactor0
-\cf2 \cb3 "\strokec4 short_name\strokec2 ":\'a0\cf5 \strokec5 "Next PWA"\cf2 \strokec2 ,\cb1 \
-\cb3 "\strokec4 icons\strokec2 ":\'a0
-\f0\b [
-\f1\b0 \cb1 \
-\pard\pardeftab720\partightenfactor0
-
-\f0\b \cf2 \cb3 \{
-\f1\b0 \cb1 \
-\pard\pardeftab720\partightenfactor0
-\cf2 \cb3 "\strokec4 src\strokec2 ":\'a0\cf5 \strokec5 "{\field{\*\fldinst{HYPERLINK "https://gist.githubusercontent.com/icon.png"}}{\fldrslt /icon.png}}"\cf2 \strokec2 ,\cb1 \
-\cb3 "\strokec4 sizes\strokec2 ":\'a0\cf5 \strokec5 "192x192"\cf2 \strokec2 ,\cb1 \
-\cb3 "\strokec4 type\strokec2 ":\'a0\cf5 \strokec5 "image/png"\cf2 \cb1 \strokec2 \
-\pard\pardeftab720\partightenfactor0
-
-\f0\b \cf2 \cb3 \}
-\f1\b0 ,\cb1 \
-
-\f0\b \cb3 \{
-\f1\b0 \cb1 \
-\pard\pardeftab720\partightenfactor0
-\cf2 \cb3 "\strokec4 src\strokec2 ":\'a0\cf5 \strokec5 "{\field{\*\fldinst{HYPERLINK "https://gist.githubusercontent.com/icon-512x512.png"}}{\fldrslt /icon-512x512.png}}"\cf2 \strokec2 ,\cb1 \
-\cb3 "\strokec4 sizes\strokec2 ":\'a0\cf5 \strokec5 "512x512"\cf2 \strokec2 ,\cb1 \
-\cb3 "\strokec4 type\strokec2 ":\'a0\cf5 \strokec5 "image/png"\cf2 \cb1 \strokec2 \
-\pard\pardeftab720\partightenfactor0
-
-\f0\b \cf2 \cb3 \}
-\f1\b0 \cb1 \
-
-\f0\b \cb3 ]
-\f1\b0 ,\cb1 \
-\pard\pardeftab720\partightenfactor0
-\cf2 \cb3 "\strokec4 theme_color\strokec2 ":\'a0\cf5 \strokec5 "#FFFFFF"\cf2 \strokec2 ,\cb1 \
-\cb3 "\strokec4 background_color\strokec2 ":\'a0\cf5 \strokec5 "#FFFFFF"\cf2 \strokec2 ,\cb1 \
-\cb3 "\strokec4 start_url\strokec2 ":\'a0\cf5 \strokec5 "{\field{\*\fldinst{HYPERLINK "https://gist.githubusercontent.com/"}}{\fldrslt /}}"\cf2 \strokec2 ,\cb1 \
-\cb3 "\strokec4 display\strokec2 ":\'a0\cf5 \strokec5 "standalone"\cf2 \strokec2 ,\cb1 \
-\cb3 "\strokec4 orientation\strokec2 ":\'a0\cf5 \strokec5 "portrait"\cf2 \cb1 \strokec2 \
-\pard\pardeftab720\partightenfactor0
-
-\f0\b \cf2 \cb3 \}}
+{
+    "name": "Yark Stick PWA demo",
+    "short_name": "Yark Stick PWA",
+    "icons": [
+      {
+        "src": "/icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+  
+      {
+        "src": "/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait"
+  }
