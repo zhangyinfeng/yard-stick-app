@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 export default function Home() {
   const [ID, setID] = useState(null);
-  const getSingleNote = (id) => {
+  const getSingleNote = (id: any) => {
     setID(id)
   }
   return (
