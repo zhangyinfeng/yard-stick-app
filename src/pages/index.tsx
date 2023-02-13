@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Evernote Clone</title>
-        <meta name="description" content="This is an Evernote Clone" />
+        <title>Yard Stick PWA Firebase Integration</title>
+        <meta name="description" content="This is a test project" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
