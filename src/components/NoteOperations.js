@@ -83,7 +83,7 @@ export default function NoteOperations({ getSingleNote }) {
             <div className={styles.notesDisplay}>
                 {notesArray.map((note) => {
                     return (
-                        <div
+                        <div key={note}
                             className={styles.notesInner}
                             onClick={() => getSingleNote(note.id)}>
                             <h4>{note.noteTitle}</h4>
